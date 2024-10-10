@@ -6,11 +6,11 @@ on:
     inputs:
       device:
         description: 'select device to build'
-        default: 'r2s'
+        default: 'r4s'
         required: false
       branch:
         description: 'seleclt openwrt branch'
-        default: 'master'
+        default: 'r4s'
         required: false
 
 jobs:
